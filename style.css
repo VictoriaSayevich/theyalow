@@ -70,7 +70,7 @@ header {
 }
 
 .menu li:last-child {
-    border-right: none; 
+    border-right: 0; 
     padding-right: 30px;
 }
 
@@ -129,7 +129,7 @@ header {
 .arrow_btn {
     margin-top: 40px;
     background-color: var(--main-color);
-    border: none;
+    border: 0;
     padding: 18px 6px;
 }
 
@@ -385,6 +385,7 @@ button:hover {
 
 .logo h2:hover {
     color: var(--main-color);
+    cursor: pointer;
 }
 
 .devices ul span:hover {
@@ -445,7 +446,7 @@ button:hover {
     }
 
     .menu li:last-child {
-        border-right: none;
+        border-right: 0;
     }
 
     .menu i {
@@ -495,7 +496,7 @@ button:hover {
 
     .USP article, .USP article:first-child {
         background-color: none;
-        border: none;
+        border: 0;
         width: 30%;
         padding: 12px 0;
         margin: 0;
@@ -600,7 +601,7 @@ button:hover {
         color: white;
         font-size: 1.2rem;
         border: 1px solid #D0A806;
-        border-left: none;
+        border-left: 0;
         padding: 5px 12px;
         margin: -5px;;
     }
@@ -670,7 +671,7 @@ button:hover {
         width: 25%;
         background: none;
         padding: 10px 0 10px 60px;
-        border-right: none;
+        border-right: 0;
     }
 
     footer .logo img {
